@@ -1,17 +1,17 @@
-package main
+// package main
 
-const pi = 3.14
-const GRAVITY = 9.81
+// const pi = 3.14
+// const GRAVITY = 9.81
 
-func main() {
-	const days int = 7
+// func main() {
+// 	const days int = 7
 
-	const (
-		monday       = 1
-		tuesday      = 2
-		thrusday int = 4
-	)
+// 	const (
+// 		monday       = 1
+// 		tuesday      = 2
+// 		thrusday int = 4
+// 	)
 
-	name := "John"
+// 	name := "John"
 
-}
+// }
