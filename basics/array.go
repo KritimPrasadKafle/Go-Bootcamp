@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 // func main() {
 // 	var numbers [5]int
 // 	fmt.Println(numbers)
@@ -57,27 +55,27 @@ import "fmt"
 // 	array(check1)
 // }
 
-// Define a custom type
-type Student struct {
-	Name   string
-	RollNo int
-	Absent bool
-}
+// // Define a custom type
+// type Student struct {
+// 	Name   string
+// 	RollNo int
+// 	Absent bool
+// }
 
-func main() {
-	// Create an array of 3 students
-	var students [3]Student
+// func main() {
+// 	// Create an array of 3 students
+// 	var students [3]Student
 
-	students[0] = Student{Name: "Alice", RollNo: 1, Absent: false}
-	students[1] = Student{Name: "Bob", RollNo: 2, Absent: true}
-	students[2] = Student{Name: "Charlie", RollNo: 3, Absent: false}
+// 	students[0] = Student{Name: "Alice", RollNo: 1, Absent: false}
+// 	students[1] = Student{Name: "Bob", RollNo: 2, Absent: true}
+// 	students[2] = Student{Name: "Charlie", RollNo: 3, Absent: false}
 
-	// Loop through and print
-	for _, s := range students {
-		status := "Present"
-		if s.Absent {
-			status = "Absent"
-		}
-		fmt.Printf("Name: %s, Roll No: %d, Status: %s\n", s.Name, s.RollNo, status)
-	}
-}
+// 	// Loop through and print
+// 	for _, s := range students {
+// 		status := "Present"
+// 		if s.Absent {
+// 			status = "Absent"
+// 		}
+// 		fmt.Printf("Name: %s, Roll No: %d, Status: %s\n", s.Name, s.RollNo, status)
+// 	}
+// }
