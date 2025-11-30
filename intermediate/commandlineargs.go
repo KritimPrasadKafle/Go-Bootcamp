@@ -11,3 +11,5 @@ flag.StringVar(&name, "name", "John", "Name of the user")
 flag.IntVar(&age, "age", 18, "Age of the user")
 flag.BoolVar(&male, "male", true, "Gender of the user")
 flag.Parse()
+
+
